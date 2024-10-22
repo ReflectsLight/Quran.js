@@ -4,7 +4,7 @@
   "description": "A programmer's interface to The Noble Quran",
   "author": "0x1eef",
   "license": "GPL-3.0",
-  "main": "dist/index.js",
+  "main": "dist/index.mjs",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "npx webpack --config etc/webpack.config.js",

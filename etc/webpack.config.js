@@ -3,11 +3,11 @@ module.exports = (env, argv) => {
   return {
     mode: "development",
     devtool: "source-map",
-    entry: './src/index.ts',
+    entry: "./src/index.ts",
     output: {
-      filename: 'index.js',
+      filename: "index.mjs",
       path: path.resolve(__dirname, "..", "dist"),
-      library: { type: 'module' },
+      library: { type: "module" },
     },
     experiments: { outputModule: true },
     resolve: {
