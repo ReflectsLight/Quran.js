@@ -57,6 +57,12 @@ console.log(ayah.text);
     - English (The Clear Quran) by Dr. Mustafa Khattab
     - Farsi by Hussain Ansarian
 
+## Sources
+
+* [GitHub](https://github.com/ReflectsLight/Quran.js)
+* [GitLab](https://gitlab.com/ReflectsLight/Quran.js)
+* [brew.bsd.cafe/@ReflectsLight](https://brew.bsd.cafe/ReflectsLight/Quran.js)
+
 ## License
 
 The "source code" is released under the terms of the GPL <br>
