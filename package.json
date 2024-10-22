@@ -8,7 +8,8 @@
   ],
   "scripts": {
     "build": "npx webpack --config etc/webpack.config.js",
-    "prepare": "npm run build",
+    "prepare": "npm run build && npm run tsc:decl",
+    "tsc:decl": "tsc -p etc/tsconfig.json --emitDeclarationOnly",
     "format": "npx eslint --config etc/eslint.config.mjs --fix src/index.ts"
   },
   "repository": {

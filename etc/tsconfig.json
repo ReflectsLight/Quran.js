@@ -1,4 +1,9 @@
 {
+  "include": [
+    "../src/**/*.ts",
+    "../src/**/*.tsx",
+  ],
+
   "compilerOptions": {
     "strict": true,
     "module": "ESNEXT",
@@ -6,10 +11,10 @@
     "esModuleInterop": true,
     "moduleResolution": "node",
 
-    "baseUrl": "src/",
+    "baseUrl": "../src/",
     "paths": {  "*": ["*"] },
 
-    "outDir": "dist",
+    "outDir": "../dist",
     "declaration": true,
   }
 }
