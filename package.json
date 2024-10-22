@@ -2,10 +2,10 @@
   "name": "Quran",
   "version": "0.1.0",
   "description": "A programmer's interface to The Noble Quran",
+  "author": "0x1eef",
+  "license": "GPL",
   "main": "dist/index.js",
-  "types": [
-    "dist/index.d.ts"
-  ],
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "npx webpack --config etc/webpack.config.js",
     "prepare": "npm run build && npm run tsc:decl",
@@ -14,10 +14,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ReflectsLight/al-quran.reflectslight.io.git"
+    "url": "git+https://github.com/ReflectsLight/Quran.js.git"
   },
-  "author": "0x1eef",
-  "license": "0BSDL",
   "devDependencies": {
     "@babel/preset-env": "^7.25.8",
     "@babel/preset-typescript": "^7.25.7",
