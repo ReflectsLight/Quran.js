@@ -11,7 +11,7 @@ there is support for the Arabic, English, and Farsi languages.
 
 The
 [`Quran.locales`](http://0x1eef.github.io/x/Quran.js/classes/Quran.html#locales)
-method provides an object where the
+getter provides an object where the
 key is a locale name (such as `en`) and the value is a
 locale object. The locales returned by this method indicate
 what languages the
@@ -40,7 +40,7 @@ import { Quran } from "@0x1eef/quran";
 
 The
 [`Quran.surahs`](http://0x1eef.github.io/x/Quran.js/classes/Quran.html#surahs-1)
-method provides an object where the key
+getter provides an object where the key
 is a locale name (such as `en`) and the value is a surah
 object. For example:
 
