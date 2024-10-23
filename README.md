@@ -14,11 +14,20 @@ what languages the `@0x1eef/Quran` library supports:
 
 ```typescript
 #!/usr/bin/env node
-import Quran from "Quran";
-for (locale in Quran.locales) {
-  const locale = Quran.locales[locale];
-  console.log("The Noble Quran for ", locale.displayName, " speakers");
-}
+import { Quran } from "@0x1eef/Quran";
+
+(() => {
+  const locales = Object.keys(Quran.locales);
+  locales.forEach((key) => {
+    const locale = Quran.locales[key];
+    console.log("The Noble Quran for ", locale.displayName, " speakers");
+  });
+  /*
+    The Noble Quran for English speakers
+    The Noble Quran for العربية speakers
+    The Noble Quran for فارسی speakers
+  */
+})();
 ```
 
 #### Quran.surahs
@@ -29,10 +38,17 @@ object. For example:
 
 ```typescript
 #!/usr/bin/env node
-import Quran from "Quran";
-const surah = Quran.surahs["ar"][0]; /* surah: Al-Fatihah */
-const ayah = surah.ayat[0].text;     /* ayah: the first ayah of Al-Fatihah */
-console.log(ayah.text);
+import { Quran } from "@0x1eef/Quran";
+
+(() => {
+  const surah = Quran.surahs["en"][0];
+  const ayah = surah.ayat[0].body;
+  console.log(ayah);
+  /*
+     In the Name of Allah —
+     the Most Compassionate, Most Merciful.
+   */
+})();
 ```
 
 ## Languages

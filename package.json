@@ -6,6 +6,7 @@
   "license": "GPL-3.0",
   "main": "dist/index.mjs",
   "types": "dist/index.d.ts",
+  "exports": {".": "./dist/index.mjs"},
   "scripts": {
     "build": "npx webpack --config etc/webpack.config.js",
     "prepare": "npm run build && npm run tsc:decl",
