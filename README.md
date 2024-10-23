@@ -5,7 +5,7 @@ to The Noble Quran, alongside various translations.
 
 ## Examples
 
-#### Quran.locales
+### Quran.locales
 
 The `Quran.locales` method provides an object where the
 key is a locale name (such as `en`) and the value is a
@@ -30,7 +30,7 @@ import { Quran } from "@0x1eef/Quran";
 })();
 ```
 
-#### Quran.surahs
+### Quran.surahs
 
 The `Quran.surahs` method provides an object where the key
 is a locale name (such as `en`) and the value is a surah
@@ -69,7 +69,7 @@ import { Quran } from "@0x1eef/Quran";
 
 الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ
 
-* Thanks to the translators:
+Thanks to the translators:
     - English (The Clear Quran) by Dr. Mustafa Khattab
     - Farsi by Hussain Ansarian
 
