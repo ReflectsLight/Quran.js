@@ -55,8 +55,6 @@ import { Quran } from "@0x1eef/Quran";
 
 ## Install
 
-**FIXME: haven't published to npm yet**
-
 `@0x1eef/Quran` is available via npm:
 
 	npm i @0x1eef/Quran

@@ -7,6 +7,8 @@
   "main": "dist/index.mjs",
   "types": "dist/index.d.ts",
   "exports": {".": "./dist/index.mjs"},
+  "files": ["README.md", "package.json", "share/*", "share/**/*", "dist/*", "dist/**/*"],
+  "keywords": ["quran", "islam", "typescript", "javascript"],
   "scripts": {
     "build": "npx webpack --config etc/webpack.config.js",
     "prepare": "npm run build && npm run tsc:decl",
