@@ -9,6 +9,7 @@
   "exports": {".": "./dist/index.mjs"},
   "files": ["README.md", "package.json", "share/*", "share/**/*", "dist/*", "dist/**/*"],
   "keywords": ["quran", "islam", "typescript", "javascript"],
+  "publishConfig": { "access": "public" },
   "scripts": {
     "build": "npx webpack --config etc/webpack.config.js",
     "prepare": "npm run build && npm run tsc:decl",

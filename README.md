@@ -1,9 +1,9 @@
 ## About
 
-This repository provides a programmer's interface
-to The Noble Quran, alongside various translations.
-At the time of writing there is support for the Arabic,
-English, and Farsi languages.
+[`@0x1eef/quran`](https://www.npmjs.com/package/@0x1eef/quran)
+provides a programmer's interface to The Noble Quran,
+alongside various translations. At the time of writing
+there is support for the Arabic, English, and Farsi languages.
 
 ## Examples
 
@@ -12,11 +12,13 @@ English, and Farsi languages.
 The `Quran.locales` method provides an object where the
 key is a locale name (such as `en`) and the value is a
 locale object. The locales returned by this method indicate
-what languages the `@0x1eef/Quran` library supports:
+what languages the
+[`@0x1eef/quran`](https://www.npmjs.com/package/@0x1eef/quran)
+library supports:
 
 ```typescript
 #!/usr/bin/env node
-import { Quran } from "@0x1eef/Quran";
+import { Quran } from "@0x1eef/quran";
 
 (() => {
   const locales = Object.keys(Quran.locales);
@@ -40,7 +42,7 @@ object. For example:
 
 ```typescript
 #!/usr/bin/env node
-import { Quran } from "@0x1eef/Quran";
+import { Quran } from "@0x1eef/quran";
 
 (() => {
   const surah = Quran.surahs["en"][0];
@@ -55,9 +57,10 @@ import { Quran } from "@0x1eef/Quran";
 
 ## Install
 
-`@0x1eef/Quran` is available via npm:
+[`@0x1eef/quran`](https://www.npmjs.com/package/@0x1eef/quran)
+is available via npm:
 
-	npm i @0x1eef/Quran
+	npm i @0x1eef/quran
 
 ## Thanks
 

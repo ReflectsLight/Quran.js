@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import { Quran } from "@0x1eef/Quran";
+import { Quran } from "@0x1eef/quran";
 
 (() => {
   const locales = Object.keys(Quran.locales)
