@@ -2,6 +2,8 @@
 
 This repository provides a programmer's interface
 to The Noble Quran, alongside various translations.
+At the time of writing there is support for the Arabic,
+English, and Farsi languages.
 
 ## Examples
 
@@ -51,12 +53,6 @@ import { Quran } from "@0x1eef/Quran";
 })();
 ```
 
-## Languages
-
-* Arabic
-* English
-* Farsi
-
 ## Install
 
 **FIXME: haven't published to npm yet**
@@ -70,8 +66,9 @@ import { Quran } from "@0x1eef/Quran";
 الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ
 
 Thanks to the translators:
-    - English (The Clear Quran) by Dr. Mustafa Khattab
-    - Farsi by Hussain Ansarian
+
+  - English (The Clear Quran) by Dr. Mustafa Khattab
+  - Farsi by Hussain Ansarian
 
 ## Sources
 
