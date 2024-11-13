@@ -1,3 +1,7 @@
+<p align="center">
+الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ
+</p>
+
 ## About
 
 [`@0x1eef/quran`](https://www.npmjs.com/package/@0x1eef/quran)
@@ -70,19 +74,17 @@ is available via npm:
 
 	npm i @0x1eef/quran
 
-## Thanks
+## Credit
 
-الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ
+**Translations**
 
-Thanks to the translators:
-
-  - English (The Clear Quran) by Dr. Mustafa Khattab
-  - Farsi by Hussain Ansarian
+* English (The Clear Quran) by Dr. Mustafa Khattab
+* Farsi by Hussain Ansarian
 
 ## Sources
 
-* [GitHub](https://github.com/ReflectsLight/Quran.js)
-* [GitLab](https://gitlab.com/ReflectsLight/Quran.js)
+* [github.com/@ReflectsLight](https://github.com/ReflectsLight/Quran.js)
+* [gitlab.com/@ReflectsLight](https://gitlab.com/ReflectsLight/Quran.js)
 * [brew.bsd.cafe/@ReflectsLight](https://brew.bsd.cafe/ReflectsLight/Quran.js)
 
 ## License
