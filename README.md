@@ -85,6 +85,7 @@ is available via npm:
 
 * [github.com/@ReflectsLight](https://github.com/ReflectsLight/Quran.js)
 * [gitlab.com/@ReflectsLight](https://gitlab.com/ReflectsLight/Quran.js)
+* [codeberg.org/@ReflectsLight](https://codeberg.org/ReflectsLight/Quran.js)
 * [brew.bsd.cafe/@ReflectsLight](https://brew.bsd.cafe/ReflectsLight/Quran.js)
 
 ## License
