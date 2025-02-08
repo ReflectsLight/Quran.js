@@ -62,6 +62,15 @@ class Quran {
   }
 
   /**
+   * @example
+   *   Quran.numberOfAyah[1] // => 7
+   * @returns {Record<string, number>} The number of ayahs in each surah
+   */
+  static numberOfAyah(): Record<string, number> {
+    return require("@json/numberOfAyah");
+  }
+
+  /**
    * @returns {[number[]]} An array of ayah durations
    */
   static get durations(): [number[]] {
