@@ -1,17 +1,5 @@
 root = true
 
-[*.html]
-indent_style = space
-indent_size = 2
-
-[*.rb, *.erb]
-indent_style = space
-indent_size = 2
-
-[*.js, *.ts, *.tsx]
-indent_style = space
-indent_size = 2
-
-[*.scss]
+[{*.js,*.ts}]
 indent_style = space
 indent_size = 2
